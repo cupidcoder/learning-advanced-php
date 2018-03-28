@@ -426,7 +426,7 @@ class ShopProduct {
 	public $producerFirstName;
 	public $price;
 
-	public function __construct($title, $producerMainName, $producerFirstName, $price, $numPages = 0, $playLength = 0) { // Only for PHP 5 and upwards
+	public function __construct($title, $producerMainName, $producerFirstName, $price, $numPages = 0, $playLength = 0) { // Only for PHP 5 and upwards @__construct
 		$this->title = $title;
 		$this->producerMainName = $producerMainName;
 		$this->producerFirstName = $producerFirstName;
