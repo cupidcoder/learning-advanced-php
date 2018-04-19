@@ -1,6 +1,5 @@
 <?php
 /************************************************************* Advanced Feautres ************************************************************/
-
 /*
 *	Chapter covers:
 *	Static methods and properties: Accessing data and functionality through classes rather than objects
