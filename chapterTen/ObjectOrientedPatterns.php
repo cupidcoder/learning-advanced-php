@@ -1,5 +1,5 @@
 <?php
-/************************************************************* Patterns for Flexible Object Programming ************************************************************/
+/************************************************************* Patterns for Flexible Object Programming / Structural / Organisation patterns ***********************************/
 
 /*
 *	Chapter covers:
