@@ -451,6 +451,41 @@ class Conf {
 
 */
 
+
+
+// Subclassing the Exception class can be a powerful way to extend the functionality of catching errors. 
+
+/*
+ class FirstException extends Exception {
+	// does nothing but only subclasses
+ }
+
+ class SecondException extends Exception {
+	// Does nothing again but only subclasses
+ }
+
+ */
+// client code
+
+ /*
+	try {
+		// does something
+	} catch (FirstException $e) {
+		// catches First exception
+	} catch (SecondException $e) {
+		// catches Second exception
+	}
+*/
+
+// finally clause allows for a default action to always be taken whether or not an exception is thrown
+
+/*
+	//...
+	finally {
+		// default action
+	}
+*/
+
 // Issues with the class above could result in a number of unexpected behaviours as we are not sure whether the $file provided to the constructor
 // is not broken, the xml file is provided is valid and so on
 
